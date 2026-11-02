@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-dotenv
+requests
+websockets
+jinja2
+python-multipart
+certifi
+truststore
+ddgs
+pypdf
+python-docx
+openpyxl
+python-pptx
+pillow

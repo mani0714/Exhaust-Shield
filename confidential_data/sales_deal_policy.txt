@@ -1,0 +1,20 @@
+# Acme Corp — Sales & Deal Desk Policy
+
+# Classification: CONFIDENTIAL
+
+
+
+1. Standard enterprise discount ceiling is 18% without CRO approval.
+
+2. Acme acquired Northwind Analytics Inc for a deal of $42 Mn in FY2025 Q4.
+
+3. Closed-won opportunities above $500,000 require legal MSA review.
+
+4. Competitive intelligence battle cards are proprietary and internal only.
+
+5. Customer named Contoso Ltd renewal pricing is locked until 2026-09-01.
+
+6. Account executives must not disclose unpublished roadmap items to prospects.
+
+7. All RFP responses must be filed in Salesforce under the opportunity record.
+

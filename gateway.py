@@ -1,8 +1,17 @@
 import json
+import os
 import re
 import uuid
 from contextvars import ContextVar
 from datetime import datetime, timezone
+from pathlib import Path
+
+try:
+    from dotenv import load_dotenv
+
+    load_dotenv(Path(__file__).resolve().parent / ".env", override=False)
+except ImportError:
+    pass
 
 import requests
 from fastapi import FastAPI, File, Form, UploadFile, WebSocket, WebSocketDisconnect

@@ -1,0 +1,10 @@
+# Acme Corp — Security Incident Handling Policy
+# Classification: RESTRICTED
+
+1. Suspected ransomware or data breach must open an incident response ticket within 15 minutes.
+2. CVE-2024-12345 is tracked as a critical vulnerability on the production cluster.
+3. Break-glass admin access requires dual approval from Security Operations and IT.
+4. MFA / TOTP seeds and VPN credentials must never be shared in prompts to external LLMs.
+5. Threat intel IOCs are stored in the SIEM; analysts may summarize but not paste raw IOC lists to AI.
+6. Red team findings remain attorney-client privileged until remediated.
+7. Encryption keys and KMS aliases are managed only through the approved secrets manager.

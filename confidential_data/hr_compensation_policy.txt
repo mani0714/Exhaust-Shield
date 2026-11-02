@@ -1,0 +1,13 @@
+# Acme Corp — Confidential HR Compensation Policy
+# Classification: INTERNAL ONLY — do not share externally
+
+Effective date: 2026-01-15
+Owner: Human Resources
+
+1. Base salary bands for IC3 engineers range from $145,000 to $175,000 depending on location.
+2. Annual bonus target for IC3 is 12% of base salary, paid after performance review.
+3. Employee EMP-20481 is on a Performance Improvement Plan (PIP) through 2026-03-31.
+4. Severance for involuntary termination is 8 weeks base pay plus accrued PTO.
+5. RSUs for director-level hires typically vest over 4 years with a 1-year cliff.
+6. Payroll routing and account numbers must never be pasted into AI tools.
+7. Contact HR confidential file desk for any compensation exception requests.

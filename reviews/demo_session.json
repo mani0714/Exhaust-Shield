@@ -1,0 +1,821 @@
+{
+  "total_prompts": 5,
+  "total_blocked": 17,
+  "leak_items_caught": 17,
+  "doc_sensitivity_items": 0,
+  "total_risk_sum": 162,
+  "knowledge_queries": 0,
+  "local_answers_served": 0,
+  "shielded_rag_answers": 0,
+  "unanswered_to_human": 0,
+  "human_corrections": 0,
+  "llm_calls_avoided": 0,
+  "llm_calls_made": 4,
+  "vault_gaps_closed": 0,
+  "routes_safe": 3,
+  "routes_moderate": 1,
+  "routes_high": 1,
+  "external_calls": 3,
+  "private_calls": 1,
+  "boundary_stayed_local": 0,
+  "boundary_left_device": 3,
+  "boundary_blocked": 1,
+  "recent_blocked_items": [
+    {
+      "department": "hr",
+      "value": "Resume",
+      "token": "<HR_16>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "hr",
+      "value": "Manager",
+      "token": "<HR_15>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "pii",
+      "value": "8754537085",
+      "token": "<PII_14>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "pii",
+      "value": "8072648630",
+      "token": "<PII_13>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "pii",
+      "value": "mani070194@gmail.com",
+      "token": "<PII_12>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "sales",
+      "value": "treasury, and business analytics",
+      "token": "<SALES_11>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "hr",
+      "value": "Manager",
+      "token": "<HR_10>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "sales",
+      "value": "financial operations of the group",
+      "token": "<SALES_9>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "sales",
+      "value": "cycle financial operations for consulting",
+      "token": "<SALES_8>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "hr",
+      "value": "Manager",
+      "token": "<HR_7>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "sales",
+      "value": "Finance\nNeeyamo Enterprises Solutions",
+      "token": "<SALES_6>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "sales",
+      "value": "PwC",
+      "token": "<SALES_5>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "sales",
+      "value": "Manager\nHDB Financial Services",
+      "token": "<SALES_4>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "sales",
+      "value": "time business data and analytics",
+      "token": "<SALES_3>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "sales",
+      "value": "Analyst\nInGovern Research Services",
+      "token": "<SALES_2>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "sales",
+      "value": "Education\n PGDM (Finance, Marketing, Analytics",
+      "token": "<SALES_1>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "pii",
+      "value": "4092,60,\n2020-12-17 00:00:00,Dr",
+      "token": "<PII_1>",
+      "event": "guardian_high",
+      "kind": "leak",
+      "action": "hide"
+    }
+  ],
+  "recent_leak_items": [
+    {
+      "department": "hr",
+      "value": "Resume",
+      "token": "<HR_16>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "hr",
+      "value": "Manager",
+      "token": "<HR_15>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "pii",
+      "value": "8754537085",
+      "token": "<PII_14>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "pii",
+      "value": "8072648630",
+      "token": "<PII_13>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "pii",
+      "value": "mani070194@gmail.com",
+      "token": "<PII_12>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "sales",
+      "value": "treasury, and business analytics",
+      "token": "<SALES_11>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "hr",
+      "value": "Manager",
+      "token": "<HR_10>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "sales",
+      "value": "financial operations of the group",
+      "token": "<SALES_9>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "sales",
+      "value": "cycle financial operations for consulting",
+      "token": "<SALES_8>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "hr",
+      "value": "Manager",
+      "token": "<HR_7>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "sales",
+      "value": "Finance\nNeeyamo Enterprises Solutions",
+      "token": "<SALES_6>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "sales",
+      "value": "PwC",
+      "token": "<SALES_5>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "sales",
+      "value": "Manager\nHDB Financial Services",
+      "token": "<SALES_4>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "sales",
+      "value": "time business data and analytics",
+      "token": "<SALES_3>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "sales",
+      "value": "Analyst\nInGovern Research Services",
+      "token": "<SALES_2>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "sales",
+      "value": "Education\n PGDM (Finance, Marketing, Analytics",
+      "token": "<SALES_1>",
+      "event": "guardian_moderate_pending",
+      "kind": "leak",
+      "action": "hide"
+    },
+    {
+      "department": "pii",
+      "value": "4092,60,\n2020-12-17 00:00:00,Dr",
+      "token": "<PII_1>",
+      "event": "guardian_high",
+      "kind": "leak",
+      "action": "hide"
+    }
+  ],
+  "recent_doc_items": [],
+  "recent_traffic": [
+    {
+      "id": "7d4eb750a59c",
+      "cls": "high",
+      "what": "Free-form prompt: “Analyze\n\n--- Attached (excel): Mariott Indonesia Addi…”",
+      "where": "High → private AI only (nothing left the building)",
+      "departments": [
+        "finance"
+      ]
+    },
+    {
+      "id": "6c36fbe37fc1",
+      "cls": "safe",
+      "what": "Free-form prompt: “Analyze and give the summary\n\n--- Attached (word): Ne…”",
+      "where": "Safe → sent to outside AI as written"
+    },
+    {
+      "id": "11bb06c2717f",
+      "cls": "safe",
+      "what": "Free-form prompt: “Analyze the strength and weakness of this resume”",
+      "where": "Safe → sent to outside AI as written",
+      "departments": [
+        "hr"
+      ]
+    },
+    {
+      "id": "0f2e1582c749",
+      "cls": "safe",
+      "what": "Free-form prompt: “What is the significance of Wipro Mindsprint deal?”",
+      "where": "Safe → sent to outside AI as written"
+    }
+  ],
+  "lane_prompts": {
+    "safe": [
+      {
+        "prompt": "Analyze and give the summary\n\n--- Attached (word): Netherlands Itinerary and cost details.docx ---\nNetherlands Itinerary and cost details (Sep 5th to Sep 7th)\nCity Hub Amsterdam (4",
+        "brief": "No sensitive spans and low risk — Safe · send external as-is",
+        "source": "tab3",
+        "ts": "2026-09-17T11:22:07.387304+00:00"
+      },
+      {
+        "prompt": "Analyze the strength and weakness of this resume",
+        "brief": "Topic word(s) noted (1) but nothing concrete to hide — Safe · send external as-is",
+        "source": "tab3",
+        "ts": "2026-09-17T11:20:42.829249+00:00"
+      },
+      {
+        "prompt": "What is the significance of Wipro Mindsprint deal?",
+        "brief": "No sensitive spans and low risk — Safe · send external as-is",
+        "source": "tab3",
+        "ts": "2026-09-17T11:12:50.307862+00:00"
+      }
+    ],
+    "moderate": [
+      {
+        "prompt": "Analyze the strength and weakness of this resume\n\n--- Attached (word): Manikandan K _Latest Resume.docx ---\nManikandan K   \nManager – Finance | Business Strategy | Data-Driven Deci",
+        "brief": "Medium — 16 business detail(s) will be hidden/rewritten before external AI (score 100)",
+        "source": "tab3",
+        "ts": "2026-09-17T11:14:14.379617+00:00"
+      }
+    ],
+    "high": [
+      {
+        "prompt": "Analyze\n\n--- Attached (excel): Mariott Indonesia Additional Ledger.xlsx ---\n### Sheet: Sheet1\nNeeyamo Enterprise Solutions - USA,,,,,,\nUSA,,,,,,\nMariott Vacations-Indonesia-Additio",
+        "brief": "High-entropy token looks like a secret — fail-closed (strict Safe)",
+        "source": "tab3",
+        "ts": "2026-09-17T11:25:59.977058+00:00"
+      }
+    ]
+  },
+  "last_shield_event": {
+    "type": "prompt_shield",
+    "timestamp": "2026-09-17T11:25:59.854725+00:00",
+    "original_prompt": "Analyze\n\n--- Attached (excel): Mariott Indonesia Additional Ledger.xlsx ---\n### Sheet: Sheet1\nNeeyamo Enterprise Solutions - USA,,,,,,\nUSA,,,,,,\nMariott Vacations-Indonesia-Additional,,,,,,\nLedger Account,,,,,,\n1-Apr-2020 to 27-Jan-2021,,,,,,\nDate,Particulars,,Vch Type,Vch No.,Debit,Credit\n2020-11-10 00:00:00,Cr,Revenue Pay Roll Additional,Journal,4092,60,\n2020-12-17 00:00:00,Dr,Wells Fargo - 3886,Receipt,1168,,60\n60,,,,,,60",
+    "redacted_prompt": "Analyze\n\n--- Attached (excel): Mariott Indonesia Additional Ledger.xlsx ---\n### Sheet: Sheet1\nNeeyamo Enterprise Solutions - USA,,,,,,\nUSA,,,,,,\nMariott Vacations-Indonesia-Additional,,,,,,\nLedger Account,,,,,,\n1-Apr-2020 to 27-Jan-2021,,,,,,\nDate,Particulars,,Vch Type,Vch No.,Debit,Credit\n2020-11-10 00:00:00,Cr,Revenue Pay Roll Additional,Journal,<PII_1>,Wells Fargo - 3886,Receipt,1168,,60\n60,,,,,,60",
+    "rewrite_suggestion": null,
+    "prompt_sent_to_model": "Analyze --- Attached (excel): Mariott Indonesia Additional Ledger.xlsx ---\n### Sheet: Sheet1\nNeeyamo Enterprise Solutions - USA,,,,,,\nUSA,,,,,,\nMariott Vacations-Indonesia-Additional,,,,,,\nLedger Account,,,,,,\n1-Apr-2020 to 27-Jan-2021,,,,,,\nDate,Particulars,,Vch Type,Vch No.,Debit,Credit\n2020-11-10 00:00:00,Cr,Revenue Pay Roll Additional,Journal,personal contact details,Wells Fargo - 3886,Receipt,1168,,60\n60,,,,,,60",
+    "llm_raw_response": "This stayed on this machine — nothing was sent to an outside AI.\n\nHere is a safe answer on the cleaned version of your question:\n- If this involved an access credential: rotate and revoke it, treat it as exposed on this device, store the new value in a vault, and never paste live secrets into chat.\n- If this involved people, pay, or health identifiers: follow HR/policy process; discuss the situation, not the raw values.\n- I can help with checklists, rotation steps, and how to word the ask — not with using the original secret.\n\nPlease resend it like this so I can answer it properly:\nAnalyze --- Attached (excel): Mariott Indonesia Additional Ledger.xlsx ---\n### Sheet: Sheet1\nNeeyamo Enterprise Solutions - USA,,,,,,\nUSA,,,,,,\nMariott Vacations-Indonesia-Additional,,,,,,\nLedger Account,,,,,,\n1-Apr-2020 to 27-Jan-2021,,,,,,\nDate,Particulars,,Vch Type,Vch No.,Debit,Credit\n2020-11-10 00:00:00,Cr,Revenue Pay Roll Additional,Journal,personal contact details,Wells Fargo - 3886,Receipt,1168,,60\n60,,,,,,60",
+    "restored_response": "This stayed on this machine — nothing was sent to an outside AI.\n\nHere is a safe answer on the cleaned version of your question:\n- If this involved an access credential: rotate and revoke it, treat it as exposed on this device, store the new value in a vault, and never paste live secrets into chat.\n- If this involved people, pay, or health identifiers: follow HR/policy process; discuss the situation, not the raw values.\n- I can help with checklists, rotation steps, and how to word the ask — not with using the original secret.\n\nPlease resend it like this so I can answer it properly:\nAnalyze --- Attached (excel): Mariott Indonesia Additional Ledger.xlsx ---\n### Sheet: Sheet1\nNeeyamo Enterprise Solutions - USA,,,,,,\nUSA,,,,,,\nMariott Vacations-Indonesia-Additional,,,,,,\nLedger Account,,,,,,\n1-Apr-2020 to 27-Jan-2021,,,,,,\nDate,Particulars,,Vch Type,Vch No.,Debit,Credit\n2020-11-10 00:00:00,Cr,Revenue Pay Roll Additional,Journal,personal contact details,Wells Fargo - 3886,Receipt,1168,,60\n60,,,,,,60",
+    "risk_score": 52,
+    "flagged_items": [
+      {
+        "type": "finance",
+        "value": "Ledger",
+        "token": "",
+        "department": "finance",
+        "generalization_hint": null,
+        "action": "keep",
+        "reason": "Open-web / generic topic — figures left clear (not company-private)",
+        "start": 60,
+        "end": 66
+      },
+      {
+        "type": "sales",
+        "value": "Sheet1\nNeeyamo Enterprise Solutions",
+        "token": "",
+        "department": "sales",
+        "generalization_hint": null,
+        "action": "keep",
+        "reason": "Open-web known entity — left clear (not company-private)",
+        "start": 87,
+        "end": 122
+      },
+      {
+        "type": "finance",
+        "value": "Ledger",
+        "token": "",
+        "department": "finance",
+        "generalization_hint": null,
+        "action": "keep",
+        "reason": "Open-web / generic topic — figures left clear (not company-private)",
+        "start": 190,
+        "end": 196
+      },
+      {
+        "type": "finance",
+        "value": "Revenue",
+        "token": "",
+        "department": "finance",
+        "generalization_hint": null,
+        "action": "keep",
+        "reason": "Open-web / generic topic — figures left clear (not company-private)",
+        "start": 314,
+        "end": 321
+      },
+      {
+        "type": "pii",
+        "value": "4092,60,\n2020-12-17 00:00:00,Dr",
+        "token": "<PII_1>",
+        "department": "pii",
+        "generalization_hint": "personal contact details",
+        "action": "hide",
+        "reason": "Personal data — hide before egress",
+        "start": 350,
+        "end": 381
+      }
+    ],
+    "placeholders": [
+      {
+        "token": "—",
+        "original": "Ledger",
+        "department": "finance",
+        "generalization_hint": null,
+        "action": "keep",
+        "reason": "Open-web / generic topic — figures left clear (not company-private)",
+        "rewrite_as": "Ledger"
+      },
+      {
+        "token": "—",
+        "original": "Sheet1\nNeeyamo Enterprise Solutions",
+        "department": "sales",
+        "generalization_hint": null,
+        "action": "keep",
+        "reason": "Open-web known entity — left clear (not company-private)",
+        "rewrite_as": "Sheet1\nNeeyamo Enterprise Solutions"
+      },
+      {
+        "token": "—",
+        "original": "Ledger",
+        "department": "finance",
+        "generalization_hint": null,
+        "action": "keep",
+        "reason": "Open-web / generic topic — figures left clear (not company-private)",
+        "rewrite_as": "Ledger"
+      },
+      {
+        "token": "—",
+        "original": "Revenue",
+        "department": "finance",
+        "generalization_hint": null,
+        "action": "keep",
+        "reason": "Open-web / generic topic — figures left clear (not company-private)",
+        "rewrite_as": "Revenue"
+      },
+      {
+        "token": "<PII_1>",
+        "original": "4092,60,\n2020-12-17 00:00:00,Dr",
+        "department": "pii",
+        "generalization_hint": "personal contact details",
+        "action": "hide",
+        "reason": "Personal data — hide before egress",
+        "rewrite_as": "personal contact details"
+      }
+    ],
+    "placeholder_policy": [
+      {
+        "action": "hide",
+        "label": "AI / LLM API keys",
+        "examples": "sk-…, sk-proj-…, gsk_…, hf_…, Anthropic keys",
+        "why": "Cloud model credentials — highest egress risk (OWASP LLM07)"
+      },
+      {
+        "action": "hide",
+        "label": "Cloud & DevOps secrets",
+        "examples": "AKIA…, GitHub/GitLab PATs, Slack xox-/webhooks, JWTs, Vault hvs., connection URIs",
+        "why": "Infrastructure takeover if leaked to an outside model"
+      },
+      {
+        "action": "hide",
+        "label": "Session / identity tokens",
+        "examples": "Bearer JWTs, PHPSESSID, JSESSIONID, refresh/access tokens",
+        "why": "Account takeover — must not leave cleartext (CISA AI data security)"
+      },
+      {
+        "action": "hide",
+        "label": "People & HR identifiers",
+        "examples": "Usernames, user names, employee IDs, names+IDs, SSN, salary figures",
+        "why": "Identity / regulated personal — never needed in cleartext externally"
+      },
+      {
+        "action": "hide",
+        "label": "PHI / health record IDs",
+        "examples": "MRN, NPI, member/subscriber IDs, diagnosis+record numbers",
+        "why": "HIPAA-class health data — private AI only when concrete"
+      },
+      {
+        "action": "hide",
+        "label": "PCI / banking instruments",
+        "examples": "Card PANs, CVV, IBAN, SWIFT, routing + account numbers",
+        "why": "Payment credentials — never cleartext external"
+      },
+      {
+        "action": "hide",
+        "label": "Deal & finance specifics",
+        "examples": "Name + $42 million, 10% OPEX dip, CRM opportunity IDs (not the name alone)",
+        "why": "Concrete commercial data — hide/scrub before outside AI"
+      },
+      {
+        "action": "hide",
+        "label": "Analysis-scale finance (ratio asks)",
+        "examples": "$45M→$77.85M with session factor; Org_1 / Person_1 / Email_1; format-preserved deal IDs",
+        "why": "Keeps multiples/YoY math valid for the model without sending exact dollars or contacts"
+      },
+      {
+        "action": "hide",
+        "label": "Table / dataset synthetic peers",
+        "examples": "CSV/markdown grids → scaled numbers, fictional names, format-preserved keys; restored on reply",
+        "why": "Full tables stay useful for analysis without leaking real cell values externally"
+      },
+      {
+        "action": "keep",
+        "label": "Open-web / public-market facts",
+        "examples": "Microsoft revenue, Apple CEO, published filings — left clear when not company-private",
+        "why": "Enterprise gate only scrubs non-public / internal details"
+      },
+      {
+        "action": "hide",
+        "label": "Security incident IDs",
+        "examples": "CVE-2024-…, GHSA-…, zero-day labels tied to an asset",
+        "why": "Attackers can weaponize exact IDs"
+      },
+      {
+        "action": "hide",
+        "label": "Customer / partner logos with sensitive context",
+        "examples": "Contoso Ltd next to deal value / % / confidential — not 'tell me about Contoso'",
+        "why": "Names alone are Safe; names + deal/confidential depth are competitive intel"
+      },
+      {
+        "action": "keep",
+        "label": "Topic / process words",
+        "examples": "pricing, discount, RFP, revenue, salary, acquisition, confidential",
+        "why": "Marks sensitivity for scoring but must stay so the question still makes sense"
+      },
+      {
+        "action": "keep",
+        "label": "Generic role / process labels",
+        "examples": "manager, forecast, pipeline, NDA, contract (as words)",
+        "why": "Context for the ask — not a concrete secret value"
+      }
+    ],
+    "prevention": {
+      "secrets_blocked": 1,
+      "topic_words_kept": 4,
+      "departments_involved": [
+        "finance",
+        "sales",
+        "pii"
+      ],
+      "llm_exposed_secrets": 0,
+      "summary": "ExhaustShield reviewed sensitive spans before the LLM call: hid 1 concrete secret(s) as placeholders (<PII_1>); kept 4 topic word(s) in cleartext so the ask still makes sense. Hidden values are restored only on-gateway after the model replies."
+    },
+    "guardian": {
+      "risk_level": "high",
+      "destination": "private",
+      "sanitize": false,
+      "lane": "private_high",
+      "lane_badge": "HIGH · PRIVATE AI ONLY",
+      "reasons": [
+        "High-entropy token looks like a secret — fail-closed (strict Safe)"
+      ],
+      "thresholds": {
+        "safe_max_score": 25,
+        "moderate_max_score": 65,
+        "high_force_departments": [
+          "healthcare",
+          "pii"
+        ],
+        "high_requires": "hard_secret_or_people_health_credential_span",
+        "strict_safe": true,
+        "high_risk_catalog": [
+          {
+            "category": "Identity / PII",
+            "examples": "username, user name, login, full name, employee/customer/patient name, DOB, address, email, phone, national ID, passport, Aadhaar, PAN, SSN"
+          },
+          {
+            "category": "Authentication",
+            "examples": "password, passphrase, OTP, MFA/2FA codes, security questions, session/cookie IDs, bearer tokens, PHPSESSID/JSESSIONID"
+          },
+          {
+            "category": "API & cloud secrets",
+            "examples": "API keys (OpenAI/Groq/AWS/GCP/Azure/GitHub/GitLab/Slack/Stripe/Twilio…), JWTs, private keys, .env, connection strings, Vault hvs., npm_/dapi tokens"
+          },
+          {
+            "category": "Webhook / exfil channels",
+            "examples": "Slack hooks.slack.com/services/…, Discord webhook URLs, Telegram bot tokens"
+          },
+          {
+            "category": "Cloud credential blobs",
+            "examples": "GCP service_account JSON, Azure DefaultEndpointsProtocol+AccountKey, AWS secret_access_key=…"
+          },
+          {
+            "category": "HR / people",
+            "examples": "EMP/CTR IDs, salary, compensation, severance, PIP, performance, background check"
+          },
+          {
+            "category": "PHI / health",
+            "examples": "patient, diagnosis, prescription, MRN, NPI, medical record, insurance member ID, lab results"
+          },
+          {
+            "category": "PCI / payments",
+            "examples": "credit/debit card, PAN, CVV, IBAN, SWIFT, routing number, bank account"
+          },
+          {
+            "category": "Biometric / device",
+            "examples": "fingerprint, face ID, voice print, IMEI, IMSI, IDFA, GAID, device ID"
+          },
+          {
+            "category": "Location / network",
+            "examples": "GPS/geolocation, home address, IP address, MAC address"
+          },
+          {
+            "category": "Special category (GDPR)",
+            "examples": "religion, political opinion, sexual orientation, trade union, children’s data / COPPA"
+          },
+          {
+            "category": "Security incidents",
+            "examples": "incident ID, breach, vulnerability, exploit, ransomware, zero-day"
+          },
+          {
+            "category": "Source / infra",
+            "examples": "source code dump, kubeconfig, terraform state, vault path, prod cluster secrets, credentialed DB URIs"
+          },
+          {
+            "category": "Dynamic basic-knowledge (not only a fixed list)",
+            "examples": "Structural inference across identity, auth, health, PCI, HR, biometrics, location, incidents — topic+value co-occurrence, labeled assignments, enterprise login shapes; not a phrase allowlist alone"
+          }
+        ],
+        "lane_contract": {
+          "safe": "Strictly clean — external as-is (no confirm)",
+          "moderate": "Business specifics — hide/rewrite, then external",
+          "high": "Identity / credentials / people / health / unretracted hide — private AI only"
+        }
+      },
+      "hard_secret_detected": false,
+      "suspicious_entropy": true,
+      "dynamic_high_signals": [],
+      "external_mode": "n/a",
+      "destination_label": "Private LLM (Ollama · playbook)",
+      "call_meta": {
+        "provider": "private_ollama",
+        "model": "llama3.2",
+        "ok": false,
+        "fail_closed": true,
+        "ollama_url": "http://127.0.0.1:11434/api/generate",
+        "error": "HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=20)",
+        "used_playbook": true,
+        "answered": true,
+        "scrubbed_for_private": true,
+        "rewrite_suggestion": "Analyze --- Attached (excel): Mariott Indonesia Additional Ledger.xlsx ---\n### Sheet: Sheet1\nNeeyamo Enterprise Solutions - USA,,,,,,\nUSA,,,,,,\nMariott Vacations-Indonesia-Additional,,,,,,\nLedger Account,,,,,,\n1-Apr-2020 to 27-Jan-2021,,,,,,\nDate,Particulars,,Vch Type,Vch No.,Debit,Credit\n2020-11-10 00:00:00,Cr,Revenue Pay Roll Additional,Journal,personal contact details,Wells Fargo - 3886,Receipt,1168,,60\n60,,,,,,60"
+      },
+      "token_map_size": 1,
+      "awaiting_confirm": false
+    },
+    "data_boundary": "blocked_no_ai_call",
+    "data_boundary_explanation": "This request was blocked. No AI call was made at all.",
+    "token_bridge": {
+      "title": "Exhaust Guardian — 3-level routing",
+      "points": [
+        "Risk level: HIGH → HIGH · PRIVATE AI ONLY",
+        "Destination: Private LLM (Ollama · playbook)",
+        "High-entropy token looks like a secret — fail-closed (strict Safe)",
+        "SAFE: external as-is · MODERATE: sanitize then external · HIGH: private LLM only (fail-closed).",
+        "The open/external model never chooses the lane — the gateway decides before egress."
+      ]
+    },
+    "department_risk": {
+      "engineering": 0,
+      "hr": 0,
+      "finance": 75,
+      "legal": 0,
+      "sales": 20,
+      "healthcare": 0,
+      "security": 0,
+      "operations": 0,
+      "marketing": 0,
+      "pii": 20
+    },
+    "top_blocked_category": "finance",
+    "logic_path": "guardian_high",
+    "lane": "private_high",
+    "lane_badge": "HIGH · PRIVATE AI ONLY",
+    "comparison": {
+      "plain_rag_would_send": "(Uncontrolled chat would send cleartext to whatever model is handy)\nAnalyze\n\n--- Attached (excel): Mariott Indonesia Additional Ledger.xlsx ---\n### Sheet: Sheet1\nNeeyamo Enterprise Solutions - USA,,,,,,\nUSA,,,,,,\nMariott Vacations-Indonesia-Additional,,,,,,\nLedger Account,,,,,,\n1-Apr-2020 to 27-Jan-2021,,,,,,\nDate,Particulars,,Vch Type,Vch No.,Debit,Credit\n2020-11-10 00:00:00,Cr,Revenue Pay Roll Additional,Journal,4092,60,\n2020-12-17 00:00:00,Dr,Wells Fargo - 3886,Receipt,1168,,60\n60,,,,,,60",
+      "exhaustshield_sent": "[Private LLM (Ollama · playbook)]\nAnalyze --- Attached (excel): Mariott Indonesia Additional Ledger.xlsx ---\n### Sheet: Sheet1\nNeeyamo Enterprise Solutions - USA,,,,,,\nUSA,,,,,,\nMariott Vacations-Indonesia-Additional,,,,,,\nLedger Account,,,,,,\n1-Apr-2020 to 27-Jan-2021,,,,,,\nDate,Particulars,,Vch Type,Vch No.,Debit,Credit\n2020-11-10 00:00:00,Cr,Revenue Pay Roll Additional,Journal,personal contact details,Wells Fargo - 3886,Receipt,1168,,60\n60,,,,,,60"
+    },
+    "wow": "High lane: private LLM only (scrubbed when hide spans exist). Fail-closed — nothing left to an external platform.",
+    "awaiting_confirm": false
+  },
+  "last_knowledge_event": null,
+  "session_epoch": 0,
+  "by_department": {
+    "engineering": 0,
+    "hr": 6,
+    "finance": 7,
+    "legal": 0,
+    "sales": 15,
+    "healthcare": 0,
+    "security": 0,
+    "operations": 1,
+    "marketing": 0,
+    "pii": 4
+  },
+  "blocked_by_department": {
+    "engineering": 0,
+    "hr": 4,
+    "finance": 0,
+    "legal": 0,
+    "sales": 9,
+    "healthcare": 0,
+    "security": 0,
+    "operations": 0,
+    "marketing": 0,
+    "pii": 4
+  },
+  "leak_by_department": {
+    "engineering": 0,
+    "hr": 4,
+    "finance": 0,
+    "legal": 0,
+    "sales": 9,
+    "healthcare": 0,
+    "security": 0,
+    "operations": 0,
+    "marketing": 0,
+    "pii": 4
+  },
+  "doc_by_department": {
+    "engineering": 0,
+    "hr": 0,
+    "finance": 0,
+    "legal": 0,
+    "sales": 0,
+    "healthcare": 0,
+    "security": 0,
+    "operations": 0,
+    "marketing": 0,
+    "pii": 0
+  },
+  "history": [
+    {
+      "ts": "2026-09-17T11:12:50.285251+00:00",
+      "type": "guardian_safe",
+      "kind": "leak",
+      "risk_score": 0,
+      "blocked": 0,
+      "departments": {},
+      "top_category": "none"
+    },
+    {
+      "ts": "2026-09-17T11:14:14.363934+00:00",
+      "type": "guardian_moderate_pending",
+      "kind": "leak",
+      "risk_score": 100,
+      "blocked": 16,
+      "departments": {
+        "hr": 4,
+        "pii": 3,
+        "sales": 9
+      },
+      "top_category": "sales"
+    },
+    {
+      "ts": "2026-09-17T11:20:42.796438+00:00",
+      "type": "guardian_safe",
+      "kind": "leak",
+      "risk_score": 10,
+      "blocked": 0,
+      "departments": {},
+      "top_category": "none"
+    },
+    {
+      "ts": "2026-09-17T11:22:07.250905+00:00",
+      "type": "guardian_safe",
+      "kind": "leak",
+      "risk_score": 0,
+      "blocked": 0,
+      "departments": {},
+      "top_category": "none"
+    },
+    {
+      "ts": "2026-09-17T11:25:59.593535+00:00",
+      "type": "guardian_high",
+      "kind": "leak",
+      "risk_score": 52,
+      "blocked": 1,
+      "departments": {
+        "pii": 1
+      },
+      "top_category": "pii"
+    }
+  ]
+}

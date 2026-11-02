@@ -1,0 +1,104 @@
+[
+  {
+    "id": "786eb6b7-93cc-48d0-a8b3-b04e80c79cce",
+    "review_id": "00f07d66-77b4-4ced-afd0-2f62a8389d60",
+    "created_at": "2026-08-20T10:23:27.594297+00:00",
+    "reviewer": "policy_owner",
+    "question": "How good is Mindsprint?",
+    "model_answer": "No keyword match in local policy documents. Please provide the approved company answer.",
+    "corrected_answer": "It is a good company",
+    "sources": [],
+    "storage": "local_reviews/corrections.json",
+    "sent_to_llm": false,
+    "used_for_model_training": false,
+    "data_protection": {
+      "layer": "ExhaustShield Human Vault",
+      "guarantee": "Answer is persisted only on enterprise disk. It is never posted to Ollama, cloud LLM APIs, or fine-tuning endpoints."
+    }
+  },
+  {
+    "id": "bd0bcc42-a61e-4ffa-9a03-9b803132baff",
+    "review_id": "961fe713-abac-4d8f-af8b-90ecc89509ec",
+    "created_at": "2026-08-19T17:16:28.529257+00:00",
+    "reviewer": "policy_owner",
+    "question": "How good is Rohit Sharma?",
+    "model_answer": "No keyword match in local policy documents. Please provide the approved company answer.",
+    "corrected_answer": "Rohit is a great cricketer",
+    "sources": [],
+    "storage": "local_reviews/corrections.json",
+    "sent_to_llm": false,
+    "used_for_model_training": false,
+    "data_protection": {
+      "layer": "ExhaustShield Human Vault",
+      "guarantee": "Answer is persisted only on enterprise disk. It is never posted to Ollama, cloud LLM APIs, or fine-tuning endpoints."
+    }
+  },
+  {
+    "id": "2975fa39-1f12-4a4e-9ca2-57f1fdae731a",
+    "review_id": "df05791e-a4fb-4ead-b860-fbb20221e5e5",
+    "created_at": "2026-07-29T19:25:16.472805+00:00",
+    "reviewer": "policy_owner",
+    "question": "Any new deal acquired in sales in Agri business?",
+    "model_answer": "No grounded policy match. Missing key term(s) in policy: agri, business, new, sales. Please provide the approved company answer.",
+    "corrected_answer": "Yes  Olam",
+    "sources": [],
+    "storage": "local_reviews/corrections.json",
+    "sent_to_llm": false,
+    "used_for_model_training": false,
+    "data_protection": {
+      "layer": "ExhaustShield Human Vault",
+      "guarantee": "Answer is persisted only on enterprise disk. It is never posted to Ollama, cloud LLM APIs, or fine-tuning endpoints."
+    }
+  },
+  {
+    "id": "4aa53580-02af-40e3-b8c8-12ca6015b3ed",
+    "review_id": "e628ccfa-ef3e-4b0d-919c-8072ef711895",
+    "created_at": "2026-07-22T19:07:56.131354+00:00",
+    "reviewer": "policy_owner",
+    "question": "Maternity policy?",
+    "model_answer": "No near-matching policy excerpt found in confidential_data/. Please provide the approved company answer.",
+    "corrected_answer": "Maternity leave 6 months",
+    "sources": [],
+    "storage": "local_reviews/corrections.json",
+    "sent_to_llm": false,
+    "used_for_model_training": false,
+    "data_protection": {
+      "layer": "ExhaustShield Human Review Vault",
+      "guarantee": "Answer is persisted only on enterprise disk. It is never posted to Ollama, cloud LLM APIs, or fine-tuning endpoints."
+    }
+  },
+  {
+    "id": "2081bc72-c4c2-479b-871e-a3476b40185f",
+    "review_id": "f3e97d24-0bcf-40d5-a978-a991d5e3ace9",
+    "created_at": "2026-07-22T18:44:59.843096+00:00",
+    "reviewer": "policy_owner",
+    "question": "What is our pet stipend policy?",
+    "model_answer": "No near-matching policy excerpt found in confidential_data/. Please provide the approved company answer.",
+    "corrected_answer": "Mani",
+    "sources": [],
+    "storage": "local_reviews/corrections.json",
+    "sent_to_llm": false,
+    "used_for_model_training": false,
+    "data_protection": {
+      "layer": "ExhaustShield Human Review Vault",
+      "guarantee": "Answer is persisted only on enterprise disk. It is never posted to Ollama, cloud LLM APIs, or fine-tuning endpoints."
+    }
+  },
+  {
+    "id": "113b1216-0431-4d54-8872-f76204721b21",
+    "review_id": "4ed6dceb-7cf5-4d81-804b-bf25ad0628fa",
+    "created_at": "2026-07-22T18:39:36.855931+00:00",
+    "reviewer": "policy_owner",
+    "question": "Messi or Ronaldo who is best?",
+    "model_answer": "No near-matching policy excerpt found in confidential_data/. Please provide the approved company answer.",
+    "corrected_answer": "Messi and Ronaldo both are talent in their own ways",
+    "sources": [],
+    "storage": "local_reviews/corrections.json",
+    "sent_to_llm": false,
+    "used_for_model_training": false,
+    "data_protection": {
+      "layer": "ExhaustShield Human Review Vault",
+      "guarantee": "Answer is persisted only on enterprise disk. It is never posted to Ollama, cloud LLM APIs, or fine-tuning endpoints."
+    }
+  }
+]
